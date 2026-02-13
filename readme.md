@@ -56,10 +56,11 @@ Das Projekt nutzt CSS Custom Properties für ein konsistentes Design:
 - **Light**: `#E0E0E0` (Hellgrau)
 - **Dark**: `#424242` (Dunkelgrau)
 
-## Autorin
+## Credits
 
-**Bianca Schlich**  
-Erstellt im Rahmen des karriere tutor Webentwicklungs-Kurses
+**Umsetzung:** Bianca Schlich  
+**Design:** Figma-Template aus dem karriere tutor HTML & CSS Kurs  
+**Entwicklung:** HTML, CSS und JavaScript Bianca Schlich
 
 ## Lizenz
 
