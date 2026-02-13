@@ -40,27 +40,6 @@ gruene-genusswelt/
 └── README.md
 ```
 
-## Installation & Nutzung
-
-1. Repository klonen:
-   ```bash
-   git clone https://github.com/[dein-username]/gruene-genusswelt.git
-   ```
-
-2. In das Projektverzeichnis wechseln:
-   ```bash
-   cd gruene-genusswelt
-   ```
-
-3. `index.html` im Browser öffnen oder mit einem lokalen Server starten:
-   ```bash
-   # Mit Python 3
-   python -m http.server 8000
-   
-   # Mit Node.js (npx)
-   npx serve
-   ```
-
 ## Responsive Breakpoints
 
 - **Desktop**: > 992px
@@ -77,7 +56,7 @@ Das Projekt nutzt CSS Custom Properties für ein konsistentes Design:
 - **Light**: `#E0E0E0` (Hellgrau)
 - **Dark**: `#424242` (Dunkelgrau)
 
-## 👤 Autorin
+## Autorin
 
 **Bianca Schlich**  
 Erstellt im Rahmen des karriere tutor Webentwicklungs-Kurses
