@@ -1,0 +1,222 @@
+<!DOCTYPE html>
+<html lang="de">
+
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Grüne Genusswelt</title>
+        <meta name="description"
+            content="Genieße köstliche pflanzliche Gerichte für eine gesunde Ernährung und einen nachhaltigen Lebensstil.">
+        <meta name="author" content="karriere tutor | Bianca Schlich">
+        <link rel="icon" type="image/x-icon" href="images/gg-logo.png">
+        <meta name="robots" content="index, follow">
+        <link rel="stylesheet" href="fonts/bootstrap-icons-1.13.1/bootstrap-icons.min.css">
+        <link rel="stylesheet" href="css/fonts.css">
+        <link rel="stylesheet" href="css/variables.css">
+        <link rel="stylesheet" href="css/style.css">
+        <link rel="stylesheet" href="css/sections.css">
+    </head>
+
+    <body>
+        <header>
+            <nav class="flex align-center py-2 px-2">
+                <div class="logo"><img src="images/gg-logo.png" alt="Logo der Firma Grüne Genußwelt"></div>
+
+                <ul class="flex">
+                    <li><a href="#rezepte">Rezepte</a></li>
+                    <li><a href="#ueber-uns">Über uns</a></li>
+                    <li><a href="#newsletter">Newsletter</a></li>
+                    <li><a href="#kontakt">Kontakt</a></li>
+                </ul>
+
+                <div class="flex icons">
+                    <button><i class="bi bi-search"></i></button>
+                    <button><i class="bi bi-heart"></i></button>
+                </div>
+
+                <button onclick="openNav()" class="hamburger"><i class="bi bi-list"></i></button>
+            </nav>
+
+            <!-- Overlay -->
+            <div id="myNav" class="overlay flex display-none py-2 px-2">
+
+                <div class="overlay-content flex">
+                    <button class="close-btn" onclick="closeNav()"><i class="bi bi-x-lg"></i></button>
+                    <ul class="flex">
+                        <li><a href="#rezepte">Rezepte</a></li>
+                        <li><a href="#ueber-uns">Über uns</a></li>
+                        <li><a href="#newsletter">Newsletter</a></li>
+                        <li><a href="#kontakt">Kontakt</a></li>
+                    </ul>
+                </div>
+
+            </div>
+        </header>
+
+        <main>
+
+            <!-- HERO SECTION -->
+            <section class="hero flex align-center">
+
+                <div class="cta flex px-3 py-3">
+                    <div class="text flex">
+
+                        <div class="cta-heading">
+                            <h1>Grüne Genusswelt</h1>
+                            <p class="subheading">Entdecke die Vielfalt der nachhaltigen Küche</p>
+                        </div>
+
+                        <p>Genieße köstliche pflanzliche Gerichte für eine gesunde Ernährung und einen nachhaltigen
+                            Lebensstil.</p>
+
+                    </div>
+                    <div class="buttons-container flex">
+                        <a class="btn btn-secondary" href="#ueber-uns">Mehr erfahren</a>
+                        <a class="btn btn-primary" href="#rezepte">Rezepte stöbern</a>
+                    </div>
+                </div>
+
+            </section>
+            <!-- END HERO SECTION -->
+
+            <!-- NEUE REZEPTE SECTION -->
+            <section id="rezepte" class="neue-rezepte flex align-center py-4">
+
+                <h2>Neue Rezepte</h2>
+
+                <div class="card-container grid">
+                    <div class="card flex">
+                        <div>
+                            <img src="images/rezept-1.jpg" alt="">
+                            <h3>Quinoa-Power-Bowl mit geröstetem Gemüse</h3>
+                        </div>
+                        <a href="#" class="btn btn-primary">Zum Rezept <i class="bi bi-arrow-right"></i></a>
+                    </div>
+                    <div class="card flex">
+                        <div>
+                            <img src="images/rezept-2.jpg" alt="">
+                            <h3>Bunte Gemüsepfanne mit aromatischem Knoblauch-Dressing</h3>
+                        </div>
+                        <a href="#" class="btn btn-primary">Zum Rezept <i class="bi bi-arrow-right"></i></a>
+                    </div>
+                    <div class="card flex">
+                        <div>
+                            <img src="images/rezept-3.jpg" alt="">
+                            <h3>Vegane Lasagne mit cremiger Cashew-Bechamel</h3>
+                        </div>
+                        <a href="#" class="btn btn-primary">Zum Rezept <i class="bi bi-arrow-right"></i></a>
+                    </div>
+                    <div class="card flex">
+                        <div>
+                            <img src="images/rezept-4.jpg" alt="">
+                            <h3>Asiatische Bowl mit Teriyaki-Tofu und knackigem Gemüse</h3>
+                        </div>
+                        <a href="#" class="btn btn-primary">Zum Rezept <i class="bi bi-arrow-right"></i></a>
+                    </div>
+                </div>
+
+            </section>
+            <!-- END NEUE REZEPTE SECTION -->
+
+            <!-- ABOUT SECTION -->
+            <section id="ueber-uns" class="about flex justify-center align-center py-4 px-4">
+
+                <div>
+                    <img src="images/gg-profile-pic-2.jpg" alt="Die Inhaberin beim Zubereiten eines Gerichts">
+                </div>
+
+                <div class="about-text flex">
+                    <div>
+                        <h2>Über Uns</h2>
+                        <p class="subheading">Leidenschaftliche Verfechter einer gesunden und nachhaltigen Ernährung</p>
+                    </div>
+                    <p>Wir glauben fest daran, dass veganes Essen nicht nur gut für unseren Körper, sondern auch für
+                        unseren Planeten ist. Unsere Mission ist es, Menschen zu inspirieren und zu unterstützen,
+                        köstliche vegane Gerichte zu entdecken und in ihren Alltag zu integrieren.</p>
+                    <p>Bei Grüne Genußwelt findest du eine vielfältige Auswahl an einfachen und kreativen veganen
+                        Rezepten, die sowohl erfahrene Köche als auch Anfänger ansprechen. Von herzhaften Hauptgerichten
+                        über erfrischende Salate bis hin zu verlockenden Desserts - unsere Rezepte sind voller Geschmack
+                        und Gesundheit.</p>
+                    <p>Wir glauben, dass eine pflanzliche Ernährung nicht nur den Tieren, sondern auch der Umwelt
+                        zugutekommt. Indem wir tierische Produkte durch köstliche pflanzliche Alternativen ersetzen,
+                        tragen wir dazu bei, den ökologischen Fußabdruck zu verringern und eine nachhaltigere Zukunft
+                        für alle zu schaffen.</p>
+                </div>
+
+            </section>
+            <!-- END ABOUT SECTION -->
+
+            <!-- NEWSLETTER SECTION -->
+            <section id="newsletter" class="newsletter flex align-center justify-center text-align-center py-4 px-4">
+                <div>
+                    <h2>Abonniere unseren Newsletter</h2>
+                    <p class="subheading">Jeden Tag ein neues Rezept in deiner Inbox. Lecker, nachhaltig und vielfältig.
+                    </p>
+                </div>
+                <form action="#" method="post" class="newsletter-form flex">
+
+                    <div class="checkboxes flex justify-center">
+                        <div class="checkbox-1 flex">
+                            <input id="weekly" name="weekly" type="checkbox">
+                            <label for="weekly">Wöchentliche News</label>
+                        </div>
+
+                        <div class="checkboxes flex justify-center">
+                            <div class="checkbox-2 flex">
+                                <input id="daily" name="daily" type="checkbox">
+                                <label for="daily">Tägliche Rezepte</label>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="anmelden flex justify-center">
+                        <div class="flex text-align-left">
+                            <label for="email">E-Mail Adresse</label>
+                            <input type="email" id="email" name="email" placeholder="E-Mail Adresse">
+                        </div>
+                        <button type="submit" class="btn btn-primary">Anmelden<i class="bi bi-arrow-right"></i></button>
+                    </div>
+                </form>
+            </section>
+            <!-- END NEWSLETTER SECTION -->
+        </main>
+
+        <footer class="flex py-4">
+            <div class="contact flex">
+                <h4>Kontakt</h4>
+                <p>Frankfurter Tor 93<br>
+                    10243 Berlin
+                </p>
+                <p><a href="tel:0191 23 45 67">0191 23 45 67</a><br>
+                    <a href="mailto:info@genuss.com">info@genuss.com</a>
+                </p>
+            </div>
+            <div class="rechtliches flex">
+                <h4>Rechtliches</h4>
+                <ul>
+                    <li><a href="#">Datenschutz</a></li>
+                    <li><a href="#">Impressum</a></li>
+                </ul>
+            </div>
+            <div class="social-icons flex">
+                <a href="#"><i class="bi bi-instagram"></i></a><a href="#"><i class="bi bi-facebook"></i></a><a
+                    href="#"><i class="bi bi-pinterest"></i></a>
+            </div>
+        </footer>
+
+        <script>
+            function openNav() {
+                document.getElementById("myNav").classList.add("display-block");
+                document.querySelector("body").style.overflow = "hidden";
+                document.querySelector(".hero").style.filter = "brightness(45%)";
+            }
+
+            function closeNav() {
+                document.getElementById("myNav").classList.remove("display-block");
+                document.querySelector("body").style.overflow = "visible";
+                document.querySelector(".hero").style.filter = "brightness(100%)";
+            }
+        </script>
+    </body>
+
+</html>
