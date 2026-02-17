@@ -60,7 +60,7 @@ Das Projekt nutzt CSS Custom Properties für ein konsistentes Design:
 
 **Umsetzung:** Bianca Schlich  
 **Design:** Figma-Template von Christine Hogg aus dem karriere tutor HTML & CSS Kurs  
-**Entwicklung:** HTML und CSS Bianca Schlich
+**Entwicklung:** HTML und CSS Bianca Schlich  
 **Beutreutes Coden:** JavaScript 
 
 ## Lizenz
