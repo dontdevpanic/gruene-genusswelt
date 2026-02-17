@@ -6,6 +6,13 @@ Eine moderne, responsive Website für vegane Rezepte mit Fokus auf nachhaltige E
 
 Grüne Genusswelt ist eine einladende Webseite, die pflanzliche Rezepte präsentiert und Nutzer für eine nachhaltige Ernährung begeistert. Das Projekt wurde im Rahmen eines Webentwicklungs-Kurses bei karriere tutor erstellt.
 
+<p align="center">
+  <img src="screenshots/gruene-genusswelt-preview.jpg" width="48%" alt="Grüne Genusswelt"> 
+  <img src="screenshots/gruene-genusswelt-figma-preview.jpg" width="48%" alt="Grüne Genusswelt Figma">
+</p>
+
+[![Live Demo](https://img.shields.io/badge/demo-live-darkgreen)](https://dontdevpanic.github.io/gruene-genusswelt/)
+
 ## Features
 
 - **Responsive Design**: Optimiert für Desktop, Tablet und Mobile
@@ -61,12 +68,19 @@ Das Projekt nutzt CSS Custom Properties für ein konsistentes Design:
 **Umsetzung:** Bianca Schlich  
 **Design:** Figma-Template von Christine Hogg aus dem karriere tutor HTML & CSS Kurs  
 **Entwicklung:** HTML und CSS Bianca Schlich  
-**Beutreutes Coden:** JavaScript 
+**Beutreutes Coden:** JavaScript (nicht Teil des Kurses)
 
 ## Lizenz
 
 Dieses Projekt ist für Bildungszwecke erstellt worden.
 
----
-
 *Hinweis: Die Rezeptinhalte und Bilder dienen zu Demonstrationszwecken.*
+
+## Andere Projekte
+
+SChau dir mehr von [Bianca | DontDevPanic](https://github.com/dontdevpanic) an: 
+
+- [HTML Code Escaper](https://github.com/dontdevpanic/html-code-escaper) - HTML-Code auf Websites anzeigen
+- [HTML Entity Enconder](https://github.com/dontdevpanic/html-code-escaper) - Web-Tool zum Umwandeln von Text in HTML-Entities und zurück
+
+
